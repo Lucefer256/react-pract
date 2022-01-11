@@ -11,7 +11,7 @@ export default function Case() {
         console.log(word)
         
         const count = x.match(/[aeiou]/gi).length;
-        setz("word count= " + word.length+"\n"+"vowels = " + count);
+        setz("vowels = " + count);
 
     }
     return (
